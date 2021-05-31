@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 
 import os
 import sqlite3
+from pyrogram import InlineKeyboardMarkup, InlineKeyboardButton
 
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
@@ -65,9 +66,12 @@ async def start(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
-        reply_to_message_id=update.message_id
-    )
-
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('Channel', url='https://t.me/TeleRoidGroup'),
+                    InlineKeyboardButton('Feedback', url='https://t.me/TeleRoid14')
+                ],
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
