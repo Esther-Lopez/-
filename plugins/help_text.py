@@ -35,6 +35,9 @@ def GetExpiryDate(chat_id):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["help", "about"]))
 async def help_user(bot, update):
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/help")
     await bot.send_message(
@@ -48,6 +51,9 @@ async def help_user(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["me"]))
 async def get_me_info(bot, update):
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/me")
     chat_id = str(update.from_user.id)
@@ -62,6 +68,9 @@ async def get_me_info(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["start"]))
 async def start(bot, update):
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/start")
     await bot.send_message(
@@ -76,6 +85,9 @@ async def start(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/upgrade")
     await bot.send_message(
@@ -89,6 +101,9 @@ async def upgrade(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["source"]))
 async def help_user(bot, update):
+    forcesub = await ForceSub(bot, update)
+    if forcesub == 400:
+        return
     # logger.info(update)
     TRChatBase(update.from_user.id, update.text, "/source")
     await bot.send_message(
