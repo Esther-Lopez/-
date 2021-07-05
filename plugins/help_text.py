@@ -69,8 +69,8 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Channel', url='https://t.me/TeleRoidGroup'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/TeleRoid14')
+                    InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"),
+                    InlineKeyboardButton("⭕ Support ⭕", url="https://t.me/TeleRoid14")
                 ],
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
