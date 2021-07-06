@@ -1,27 +1,27 @@
 class Translation(object):
-    START_TEXT = """Hi. 🤠 Thank You for using me .\nIm a simple Telegram All-In-One Bot."""
-    RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.</b>"
+    START_TEXT = """Hello! 🙋\n\nThis is a simple Telegram All-In-One Bot. Click /help button to Know More What Can I Do? \n\n**@TheTeleRoid**"""
+    RENAME_403_ERR = "<b>Sorry. You Are Not Permitted To Rename This File.\nAsk In [Support Group](https://t.me/TeleRoid14)</b>"
     ABS_TEXT = " <b>Please Don't Be Selfish.</b>"
-    UPGRADE_TEXT = "<b>This Bot Is Free To Use If U R My  Friend.</b>"
+    UPGRADE_TEXT = "<b>This Bot Is Free To Use If U R My  Friend......\n\n**@TheTeleRoid**</b>"
     FORMAT_SELECTION = "<b>Select The Desired Format:</b> "
     SET_CUSTOM_USERNAME_PASSWORD = """<b>If You Want To Download Premium Videos, Provide In The Following Format:
 URL | filename | username | password</b>"""
     NOYES_URL = "<b>This Is Dam Slow Link Bro! I Wont Waste My Time On This. Get Me A Fast Link</b>"
-    DOWNLOAD_START = "<b>Downloading Ur Files 🔻</b>"
-    UPLOAD_START = "<b>Uploading Ur Files 🔺</b>"
+    DOWNLOAD_START = "<b>Downloading Your Files.....📥</b>"
+    UPLOAD_START = "<b>Uploading Your Files.....📤</b>"
     RCHD_BOT_API_LIMIT ="<b>Size Greater Than Maximum Allowed Size. Neverthless, Trying To Upload.</b>"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\n<b>Sorry. But, I Cannot Upload Files Greater Than 2GB Due To Telegram API Limitations.</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>File Uploaded Successfully</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nUploaded in {} seconds."
-    NOT_AUTH_USER_TEXT = "U R Not Authorise To Do This. This Is Only <b>Admin</b> Command"
+    NOT_AUTH_USER_TEXT = "You Are Not Authorise To Do This. This Is Only <b>Admin</b> Command"
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription."
     SAVED_CUSTOM_THUMB_NAIL = "<b>Custom video / file thumbnail saved. This image will be used in the video / file.</b>"
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ <b>Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media Cleared Succesfully.</b>"
     SAVED_RECVD_DOC_FILE = "<b>Document Downloaded Successfully.</b>"
-    CUSTOM_CAPTION_UL_FILE = " <b>Bot Created By \n   👉 @HxBots</b>"
-    NO_CUSTOM_THUMB_NAIL_FOUND = "<b>No Custom ThumbNail Found.</b>"
-    NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/HxSupport"
+    CUSTOM_CAPTION_UL_FILE = " <b>Bot Created By \n   👉**@TheTeleRoid**</b>"
+    NO_CUSTOM_THUMB_NAIL_FOUND = "<b>No Custom ThumbNail Found .</b>"
+    NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/TeleRoid14"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
@@ -31,31 +31,31 @@ Expires on: 10/12/2021
 --------"""
     HELP_USER = """<b>There Are Multiple Things I Can Do:</b>\n\n <b>All Supported Video Formats of https://rg3.github.io/youtube-dl/supportedsites.html</b>
 
- <b>Upload as file from any HTTP link</b>
+📌 <b>Upload as file from any HTTP link</b>
 
- <b>Convert To Streamable Video, any Telegram media.\nReply /converttovideo to Any Doc File</b>
+📌 <b>Convert To Streamable Video, any Telegram media.\nReply /converttovideo to Any Doc File</b>
 
- <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
+📌 <b>ReName Telegram files, with custom thumbnail support.\nReply /rename To File</b>
 
- <b>Get High Speed Direct Download Link Of Any Telegram File.\nReply /getlink To File</b>
+📌 <b>Get High Speed Direct Download Link Of Any Telegram File.\nReply /getlink To File</b>
 --------
 
 Send /me To Know Your Current Plan Details"""
     REPLY_TO_DOC_GET_LINK = "<b>Reply to a Telegram media to get High Speed Direct Download Link.</b>"
-    REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.</b>"
-    REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.</b>"
-    SOURCE = """<b>Hi!,</b>
+    REPLY_TO_DOC_FOR_C2V = "<b>Reply to a Telegram Media To Convert.\n@TheTeleRoid</b>"
+    REPLY_TO_DOC_FOR_SCSS = "<b>Reply to a Telegram Media To Get Screenshots.\n@TheTeleRoid</b>"
+    SOURCE = """<b>Hello!,</b>
 
-<b>○ My Name : <i>Hx AnyDLBot</i></b>
+<b>○ My Name : <i>TeleRoid AnyDLBot</i></b>
 <b>○ Creator : <a href='https://telegram.dog/Kirodewal'>This Person</a></b>
 <b>○ Credits : Everyone In This Journey</b>
 <b>○ Language : Python 3.9</b>
 <b>○ Library : Pyrogram Asyncio</b>
 <b>○ Cloned From : AnyDLBot [Spechide]</b>
-<b>○ Source Code :  <a href='https://t.me/HxSourceCode/2'>👉 Click Here</a></b>
-<b>○ Server : <a href='aws.amazon.com'>AWS Amazon</a></b>
+<b>○ Source Code :  <a href="https://github.com/PredatorHackerzZ">𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲</a></b>
+<b>○ Server : <a href='https.heroku.com'>Heroku</a></b>
 <b>○ Build Status : Beta v1</b>"""
-    REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Reply to a Telegram Media To /rename With Custom Thumbnail Support.</b>"
+    REPLY_TO_DOC_FOR_RENAME_FILE = "<b>Reply to a Telegram Media To /rename With Custom Thumbnail Support.Or Ask In Support Group.</b>"
     AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days."
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "<b>First send /downloadmedia To Any Media So That It Can Be Downloaded To My Local. \nSend /Storageinfo To Know The Media, That Is Currently Downloaded.</b>"
