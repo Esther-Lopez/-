@@ -83,7 +83,7 @@ async def start(bot, update):
                     InlineKeyboardButton("⭕ Support ⭕", url="https://t.me/TeleRoid14")
                 ]
             ]     
-       )
+       ))
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["upgrade"]))
 async def upgrade(bot, update):
