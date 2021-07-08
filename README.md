@@ -67,10 +67,16 @@ generatescss - Get Screenshot of Telegram Media
 #### LICENSE
 - GPLv3
 
-- Develoer
-@SpecHide for @AnyDLBot
+### Developer
+
+- [@SpecHide](https://t.me/SpecHide)for [@AnyDLBot](https://t.me/AnyDLBot) 
 
 - [Me](https://telegram.dog/TeamTeleRoid) 
+
 Added ForceSub
+
+Added Inline Button
+
 Adding Broadcast
+
 Adding Database
